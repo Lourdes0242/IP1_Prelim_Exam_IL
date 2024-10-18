@@ -79,7 +79,7 @@ function checkWinner() {
       
   } else if (score2 === 3) {
     P2win.style.visibility = "visible";
-    document.getElementById('P2win').innerHTML = "Player 1 is the Winner!" ;
+    document.getElementById('P2win').innerHTML = "Player 2 is the Winner!" ;
     document.getElementById('play').style.display = "none";
       document.getElementById('nG').style.display = "block";
   }
